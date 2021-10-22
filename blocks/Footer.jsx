@@ -82,9 +82,7 @@ const Footer = () => {
             </FooterContent>
             <Copy>
                 <ContainerFluid>
-                    Diseñado por
-                    <a href={autor.webUlr} target="_blank">{autor.name}</a>
-                    | © {new Date().getFullYear()} {companyInfo.name}
+                    Diseñado por <a href={autor.webUlr} target="_blank">{autor.name}</a> | © {new Date().getFullYear()} {companyInfo.name}
                 </ContainerFluid>
             </Copy>
         </>

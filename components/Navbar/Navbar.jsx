@@ -1,4 +1,38 @@
-import React, {useState} from 'react'
+/**
+ * NavBar
+ * 
+ * version 0.1
+ * 
+ * @param {navActive, setNavActive} useState,para mostrar y ocultar el navbar en versiones
+ * moviles y tablet, se debe declarar un useState en el archivo que és importado éste.
+ * Ejemplo: 
+ * 
+ * ``
+ * import NavBar from 'path/Navbar
+ * 
+ * const [navActive, setNavActive] = useState(false)
+ * 
+ * <ParentComponente>
+ *  <ButtonShowNav onClick={() => setNavActive(!navActive)} />
+ *  <NavBar navActive={navActive} setNavActive={setNavActive} />
+ * </ParentComponent>
+ * ``
+ * 
+ * @param {title} String, para diferenciar un menú de otro se debe debe agregar un título
+ * 
+ * @param {items} Arrau, es la lista de los elementos del menú
+ * 
+ * @param {light} Boolen, sirve para indicar que será transparente con letras blancas
+ * Ejemplo de uso: ``<NavBar ligth={true}></NavBar>``
+ * 
+ * @param {lgAlign} String, indica la posición que tendrán los items en la vista laptop
+ * Ejemplo de valores: ``lgAlign="center" lgAlign="flex-end" lgAlign="flex-start ..."``,
+ * estos valores corresponden a las propiedades de ``justify-content``:
+ * 
+ * Nota ``navActive, setNavActive, title, items`` son Requeridos
+ */
+
+import React from 'react'
 import styled, { css } from 'styled-components'
 import { mediaQuery, themeFonts, themeColors, transitionBase } from '../../theme/variables'
 import { resetUl } from '../../theme/mixins'

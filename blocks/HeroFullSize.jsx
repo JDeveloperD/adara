@@ -8,7 +8,7 @@ import React from 'react'
 
 const HeroFullSize = () => {
     return (
-        <div></div>
+        <div>Slider principal</div>
     )
 }
 

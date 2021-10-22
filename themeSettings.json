@@ -1,0 +1,101 @@
+{
+    "version": "0.1",
+    "keys": [],
+    "infoCreator": {
+        "name": "David Sandoval",
+        "webUlr": "#"
+    },
+    "infoCompany": {
+        "name": "Adara Joyas",
+        "description": "Más de 25 años en el corazón de Trujillo ofreciendo joyas con la mejor calidad!",
+        "location": {
+            "address": "Jr Bolivar 634 C.C Zarzar tiendas 03 y 10",
+            "googleMaps": ""
+        },
+        "phones": [
+            "654321",
+            "937507582"
+        ],
+        "whatsapp": "937507582"
+    },
+    "navs": {
+        "navSocial": [
+            {
+                "id": "fvñlk431354f243",
+                "text" : "facebook",
+                "link": "https://facebook.com"
+            },
+            {
+                "id": "fvñlk431354125f5",
+                "text" : "twitter",
+                "link": "https://twitter.com"
+            },
+            {
+                "id": "fvñlk431354623fvg",
+                "text" : "instagram",
+                "link": "https://instagram.com"
+            }
+        ],
+        "navMain": [
+            {
+                "id": "navMain1",
+                "text": "NOTICIAS",
+                "link": "/noticias"
+            },
+            {
+                "id": "navMain2",
+                "text": "NOSOTROS",
+                "link": "/nosotros"
+            },
+            {
+                "id": "navMain3",
+                "text": "TIENDA",
+                "link": "/tienda"
+            }
+        ],
+        "navShop": [
+            {
+                "id": "navShop1",
+                "text": "CABALLEROS",
+                "link": "/caballeros"
+            },
+            {
+                "id": "navShop2",
+                "text": "DAMAS",
+                "link": "/damas"
+            },
+            {
+                "id": "navShop3",
+                "text": "NIÑOS",
+                "link": "/ninos"
+            },
+            {
+                "id": "navShop4",
+                "text": "NOVIOS",
+                "link": "/novios"
+            },
+            {
+                "id": "navShop5",
+                "text": "REGALOS",
+                "link": "/regalos"
+            }
+        ],
+        "navFooter": [
+            {
+                "id": "navFooter1",
+                "text": "Noticias",
+                "link": "/noticias"
+            },
+            {
+                "id": "navFooter2",
+                "text": "Nosotros",
+                "link": "/nosotros"
+            },
+            {
+                "id": "navFooter3",
+                "text": "Tienda",
+                "link": "/tienda"
+            }
+        ]
+    }    
+}

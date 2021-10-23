@@ -24,7 +24,7 @@ import DefaultLayout from '../layouts/DefaultLayout'
 
 const index = () => {
     return (
-        <DefaultLayout>
+        <DefaultLayout light>
             <HeroFullSize />
             <FeaturedProducts />
             <SliderCategories />

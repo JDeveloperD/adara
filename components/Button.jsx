@@ -28,7 +28,8 @@
  * @param {styleButton} String, estilo del botón que indica el tipo de contenido que tendrá, por defecto es "only-text"
  * Ejemplo de valores: ``styleButton="with-icon" | styleButton="text" | styleButton="icon"``
  * 
- * ``<Button color="success" size="lg" type="stroke" shape="rounded-circle">Texto</Button>``
+ * 
+ * ``<Button color="success" size="lg" type="stroke" shape="rounded-circle">Texto</Button>`` * 
  * 
  * Nota: Ninguno de los parámetros es requerido, se puede agregar el que desee con su valor respectivo
  */

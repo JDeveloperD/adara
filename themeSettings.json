@@ -97,5 +97,48 @@
                 "link": "/tienda"
             }
         ]
-    }    
+    },
+    "pages": {
+        "home": {
+            "hero": [
+                {
+                    "id": "heroSlider1",
+                    "image": "./slider-home-main-one.png",
+                    "caption": {
+                        "title": "Escoge el indicado",
+                        "description": "Sortijas de compromiso en oro de 18kl",
+                        "buttons": [
+                            {
+                                "text": "Ver aqui",
+                                "link": "/link"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "heroSlider2",
+                    "image": "./slider-home-main-two.jpg",
+                    "caption": {
+                        "title": "Presume lo que te mereces",
+                        "description": "Conoce nuestras cadenas en oro de 18kl",
+                        "buttons": [
+                            {
+                                "text": "Ver aqui",
+                                "link": "/link"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "featuredProducts": {
+
+            },
+            "categories": {
+
+            },
+            "video": {}
+        },
+        "about": {}
+    }
+    
 }

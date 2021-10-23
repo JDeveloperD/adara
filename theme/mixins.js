@@ -24,6 +24,12 @@ export const resetUl = css`
     padding: 0;
 `
 
+export const backgroundCover = css`
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+`
+
 export const inlineFlexCenter = css`
     display: inline-flex;
     align-items: center;
@@ -51,7 +57,7 @@ export const resetButtonStyles = css`
     }
 `
 
-export const buttonVariant = ({color, size, type, shape, styleButton}) => {
+export const buttonVariant = ({ color, size, type, shape, styleButton }) => {
     let cssFinal = ""   
     
     let colorHexadecimal = getColor(color)
@@ -118,7 +124,7 @@ const buttonVariantByType = (type, colorHexadecimal) => {
                 
                 &:hover { 
                     background: ${colorHexadecimal};
-                    color: ${colors.white};
+                    color: ${colorHexadecimal === 'white' ? `${themeColors.bodyText}` : `${colors.white}`};
                 }`
 
         case "link":

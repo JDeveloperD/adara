@@ -31,7 +31,7 @@ const HeaderTopContainer = styled.div`
     
     ${mediaQuery.tablet} {
         display: block;
-        border-bottom: 1px solid ${p => p.light ? `rgba(255,255,255, 0.5)`: null};
+        border-bottom: 1px solid ${p => p.light ? `rgba(255,255,255, 0.2)`: null};
         padding: 0.5rem 0;
     }
 `

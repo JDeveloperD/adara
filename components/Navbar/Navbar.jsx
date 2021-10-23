@@ -66,12 +66,12 @@ const NavBar = ({navActive, setNavActive, title, items, light, lgAlign}) => {
 }
 
 const NavBarWrapper = styled.div`
-    position: absolute;
+    position: fixed;
     z-index: 999;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    height: 100vh;
     background-color: white;
     padding: 3rem;
     transition: ${transitionBase};
@@ -89,8 +89,8 @@ const NavBarWrapper = styled.div`
         position: relative;
         top: initial;
         left: initial;
-        bottom: initial;
-        right: initial;
+        width: auto;
+        height: auto;
         padding: 0;
         opacity: 1;
         visibility: visible;

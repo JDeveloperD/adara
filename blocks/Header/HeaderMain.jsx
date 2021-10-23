@@ -76,7 +76,7 @@ const HeaderMain = ({ light }) => {
 
 const HeaderMainContainer = styled.div`
     padding: 0.5rem 0;
-    border-bottom: 1px solid ${p => p.light ? `rgba(255,255,255, 0.5)`: `rgba(4, 30, 65, 0.1)`};
+    border-bottom: 1px solid ${p => p.light ? `rgba(255,255,255, 0.2)`: `rgba(4, 30, 65, 0.1)`};
 `
 
 const ButtonHeaderNav = styled.button`
